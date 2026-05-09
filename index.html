@@ -3,39 +3,169 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Britt's Bakery</title>
 
-  <link rel="stylesheet" href="styles.css" />
+  <title>Creations by Bedran</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
-  <header>
-    <h1>Britt's Bakery</h1>
-    <p>Fresh baked goods made with love.</p>
+  <nav class="navbar">
+    <div class="logo">Sweet Crumb Bakery</div>
+
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#featured">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-overlay"></div>
+
+    <img
+      class="hero-image"
+      src="images/hero.png"
+      alt="Fresh baked pastries"
+    >
+
+    <div class="hero-content">
+      <h1>Fresh Bakes.<br>Warm Moments.</h1>
+
+      <p class="signature">
+  Inspired by the flavors and warmth of New Orleans.
+	  </p>
+
+      <a class="hero-button" href="#contact">
+        Order Now
+      </a>
+    </div>
   </header>
+  
+  <div class="divider"></div>
 
-  <section>
-    <h2>About</h2>
-    <p>
-      Custom cakes, breads, pastries, and seasonal treats.
-    </p>
+  <section id="about" class="section">
+    <div class="section-header">
+      <p class="eyebrow">ABOUT</p>
+      <h2>Made from scratch every morning.</h2>
+    </div>
+
+    <div class="about-grid">
+      <p>
+        At Creations by Bedran, every recipe is handcrafted using quality ingredients,
+        traditional techniques, and a passion for sharing comforting baked goods
+        with our community.
+      </p>
+
+      <p>
+        From flaky pastries to custom celebration cakes, we believe the best baking
+        brings people together.
+      </p>
+    </div>
   </section>
+  
+  <div class="divider"></div>
 
-  <section>
-    <h2>Gallery</h2>
+  <section id="featured" class="section alt-section">
+    <div class="section-header">
+      <p class="eyebrow">FEATURED</p>
+      <h2>Customer favorites</h2>
+    </div>
 
-    <img src="images/CreationsByBLogo.jpg" alt="Bakery Item" width="300" />
+    <div class="card-grid">
+
+      <div class="card">
+        <img src="images/croissant.jpg" alt="Croissants">
+
+        <div class="card-content">
+          <h3>Butter Croissants</h3>
+          <p>Flaky, golden, and baked fresh daily.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/cake.jpg" alt="Custom cake">
+
+        <div class="card-content">
+          <h3>Custom Cakes</h3>
+          <p>Designed for birthdays, weddings, and celebrations.</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="images/cookies.jpg" alt="Cookies">
+
+        <div class="card-content">
+          <h3>Seasonal Cookies</h3>
+          <p>Soft-baked favorites with rotating flavors.</p>
+        </div>
+      </div>
+
+    </div>
   </section>
+  
+  <div class="divider"></div>
 
-  <section>
-    <h2>Contact</h2>
+  <section id="gallery" class="section">
+    <div class="section-header">
+      <p class="eyebrow">GALLERY</p>
+      <h2>Fresh from the oven</h2>
+    </div>
 
-    <p>Email: your@email.com</p>
-
-    <a href="https://instagram.com/yourpage">
-      Instagram
-    </a>
+    <div class="gallery-grid">
+      <img src="images/gallery1.jpg" alt="">
+      <img src="images/gallery2.jpg" alt="">
+      <img src="images/gallery3.jpg" alt="">
+      <img src="images/gallery4.jpg" alt="">
+      <img src="images/gallery5.jpg" alt="">
+      <img src="images/gallery6.jpg" alt="">
+    </div>
   </section>
+  
+  <div class="divider"></div>
+
+  <section id="contact" class="section contact-section">
+    <div class="section-header">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Place an order</h2>
+    </div>
+
+    <div class="contact-card">
+
+      <p>
+        Reach out through Instagram, email, or phone for custom orders and availability.
+      </p>
+
+      <div class="contact-links">
+        <a href="mailto:hello@sweetcrumbbakery.com">
+          Email
+        </a>
+
+        <a href="https://instagram.com">
+          Instagram
+        </a>
+
+        <a href="https://facebook.com">
+          Facebook
+        </a>
+      </div>
+
+    </div>
+  </section>
+  
+  <div class="divider"></div>
+
+  <footer class="footer">
+    <p>© 2026 Creations by Bedran</p>
+  </footer>
 
 </body>
 </html>
